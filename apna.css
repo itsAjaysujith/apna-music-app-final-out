@@ -1,17 +1,21 @@
-.row{
-    height: 500px;
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&family=Pacifico&family=Square+Peg&display=swap');
+
+
+.first{
+    height: 610px;
+    margin: 0px;
 }
 
 .mac{
     height: 472px;
-    width: 274px;
+    width: 260px;
     margin-top: 74px;
     margin-left: 184px;
     position: absolute;
 }
 .line{
     padding-left: 199px;
-    width: 445px;
+    width: 432px;
     height: 451px;
     margin-top: 85px;
     
@@ -19,9 +23,628 @@
 }
 .wel{
     margin-left: 5px;
+    margin-top: 128px;
+}
+.fi{
+    width: 67px;
+    margin-top: 13px;
+    margin-left: 179px;
+}
+.heads{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 123px;
+    color: white;
+    margin-top: 18px;
+}
+.paras{
+    font-size: 15px;
+    margin-left: 82px;
+    color: white;
+
+}
+.heads2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 123px;
+    color: white;
+    margin-top: 18px;
+
+}
+.heads3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 97px;
+    color: white;
+    margin-top: 18px;
+}
+.paras2{
+    font-size: 15px;
+    margin-left: 82px;
+    color: white; 
+}
+.paras3{
+    font-size: 15px;
+    margin-left: 87px;
+    color: white;
+}
+.sec{
+    height: 240px;
+    background-color: #191919;
+    border: 0px;
+    margin: 0px;
+}
+.aj{
+    font-family:'Courgette', cursive;
+    font-size: 90px;
+    margin: 4px;
+    line-height: 1;
+    color:white;
+    margin-left: 32px;
+}
+.parg{
+    color: white;
+    margin-top: 36px;
+    margin-left: 29px;
+}
+.butt{
+    width: 168px;
+    height: 40px;
+    background-color: #8e8ee8;
+    border-radius: 5px;
+    margin-left: 225px;
+    margin-top: 52px;
+    border: 0px;
+    transition-duration: 1s;
+}
+.butt:hover{
+    background-color: #4444a5;
+}
+.mbtop{
+    position: relative;
+}
+.love{
+    font-size: 20px;
+    margin-left: 209px;
+    margin-top: -386px;
+    color: white;
+    position: absolute;
+    animation-name: top;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+@keyframes top{
+    0%{  font-size: 18px;
+        margin-left: 215px;
+        margin-top: -386px;
+        color: white;}
+   
+    
+    50%{font-size: 10px;
+        text-align: left;
+        margin-left: 215px;
+        margin-top: -347px;
+        color: grey;}
+    
+    100%{font-size: 18px;
+        margin-left: 215px;
+        margin-top: -386px;
+        color: white;}
+
+       
+}
+
+.lyrics{
+    font-size: 10px;
+    position: absolute;
+    text-align: left;
+    margin-left: 215px;
+    margin-top: -347px;
+    color: grey;
+    animation-name: down;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes down{
+    0%{ font-size: 10px;
+        text-align: left;
+      
+        margin-top: -347px;
+        color: grey;}
+     
+    
+    50%{font-size: 18px;
+        margin-left: 209px;
+        margin-top: -386px;
+        color: white;}
+    
+    100%{font-size: 10px;
+        text-align: left;
+        margin-left: 215px;
+        margin-top: -347px;
+        color: grey;}
+
+       
+}
+
+.author{
+    font-size: 10px;
+    text-align: left;
+    margin-left: 215px;
+    margin-top: -144px;
+    color: white;  
+}
+.author2{
+    font-size: 10px;
+    text-align: left;
+    margin-left: 215px;
+    margin-top: 10px;
+    color: white;  
+}
+.mobdown{
+    width: 255px;
+    height: 179px;
+    margin-left: 195px;
+    margin-top: -71px;
+}
+.third{
+    height: 450px;
+}
+.bab{
+    width: 25%;
+}
+.box1{
+    width: 200px;
+    margin-left: 102px;
     margin-top: 100px;
 }
-@media only screen and (min-width:200px) and (max-width:600px){
+.box2{
+    width: 200px;
+    margin-left: 322px;
+    margin-top: -315px;
+}
+.box3{
+    width: 200px;
+    margin-left: 542px;
+    margin-top: -317px;
+}
+.box4{
+    width: 200px;
+    margin-left: 761px;
+    margin-top: -317px;
+}
+.box5{
+    width: 200px;
+    margin-left: 979px;
+    margin-top: -317px;
+
+}
+.box6{
+    width: 200px;
+    margin-left: 102px;
+    margin-top: 100px;
+}
+.box7{
+    width: 200px;
+    margin-left: 322px;
+    margin-top: -315px;
+}
+.box8{
+    width: 200px;
+    margin-left: 542px;
+    margin-top: -317px;
+    
+}
+.box9{
+    width: 200px;
+    margin-left: 761px;
+    margin-top: -318px;
+}
+.box10{
+    width: 200px;
+    margin-left: 979px;
+    margin-top: -319px;
+
+}
+.new{
+    font-size: 35px;
+    color: white;
+    margin-left: 105px;
+    margin-top: 98px;
+}
+
+.fourth{
+    height: 400px;
+    width: auto;
+    background-color: #191919;
+    position: relative;
+}
+.round {
+    background-color: rgb(31, 31, 31);
+    width: 280px;
+    height: 280px;
+    margin-top: 57px;
+    position: absolute;
+    margin-left: 181px;
+    border-radius: 50%;
+    animation-name: pulse1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes pulse1{
+    0%{width: 280px;
+        height: 280px;}
+     50%{width: 300px;
+        height: 300px;}
+     100%{width: 280px;
+        height: 280px;}   
+
+      
+  }
+  .round2 {
+    background-color: rgb(53, 53, 53);
+    width: 240px;
+    height: 240px;
+    margin-top: 77px;
+    position: absolute;
+    margin-left: 200px;
+    border-radius: 50%;
+    opacity: .8px;
+    animation-name: pulse2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes pulse2{
+    0%{width: 240px;
+        height: 240px;}
+     50%{width: 260px;
+        height: 260px;}
+     100%{width: 240px;
+        height: 240px;}   
+
+      
+  }
+  .round3 {
+    background-color: rgb(67, 67, 67);
+    width: 200px;
+    height: 200px;
+    margin-top: 98px;
+    position: absolute;
+    margin-left: 220px;
+    border-radius: 50%;
+    opacity: .6px;
+    animation-name: pulse3;
+    animation-duration:3s; 
+    animation-iteration-count: infinite;
+  }
+  @keyframes pulse3{
+    0%{width: 200px;
+        height: 200px;}
+     50%{width: 230px;
+        height: 230px;
+        margin-top: 95px;
+        margin-left: 215px;}
+     100%{width: 200px;
+        height: 200px;}   
+
+      
+  }
+  .round4 {
+    background-color: rgb(99, 99, 99);
+    width: 150px;
+    height: 150px;
+    margin-top: 124px;
+    position: absolute;
+    margin-left: 245px;
+    border-radius: 50%;
+    opacity: .4px;
+    animation-name: pulse4;
+    animation-duration:3s; 
+    animation-iteration-count: infinite;
+  }
+  @keyframes pulse4{
+    0%{width: 150px;
+        height: 150px;}
+     50%{width: 180px;
+        height: 180px;
+        margin-top: 121px;
+        margin-left: 240px;}
+     100%{width: 150px;
+        height: 150px;}   
+
+      
+  }
+  .round5 {
+    background-color: rgb(116, 116, 116);
+    width: 100px;
+    height: 100px;
+    margin-top: 151px;
+    position: absolute;
+    margin-left: 270px;
+    border-radius: 50%;
+    opacity: .2px;
+    animation-name: pulse5;
+    animation-duration:3s; 
+    animation-iteration-count: infinite;
+  }
+  @keyframes pulse5{
+    0%{width: 100px;
+        height: 100px;}
+     50%{width: 130px;
+        height: 130px;
+        margin-top: 147px;
+        margin-left: 265px;}
+     100%{width: 100px;
+        height: 100px;}   
+
+      
+  }
+  .ava1{
+    width: 52px;
+    height: 52px;
+    margin-left: 363px;
+    margin-top: 100px;
+    position: absolute;
+  }
+  .ava2{
+    width: 52px;
+    height: 52px;
+    margin-left: 366px;
+    margin-top: 247px;
+    position: absolute;
+  }
+  .ava3{
+    width: 52px;
+    height: 52px;
+    margin-left: 210px;
+    margin-top: 176px;
+    position: absolute;
+  }
+  .holow{
+    color: white;
+            font-size: 50px;
+            font-family: 'Courgette', cursive;
+            margin-top: 92px;
+            margin-left: -33px;
+            animation-name: colorchange;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            
+  }
+  @keyframes colorchange{
+    0%{color: white;}
+    25%{color: rgb(147, 58, 167);}
+    50%{color: rgb(110, 34, 186);}
+    75%{color: rgb(147, 58, 167);}
+    100%{color: white;}
+  }
+  .nor{
+    color: white;
+    font-family: 'Courgette', cursive;
+    margin-left: 83px;
+    margin-top: -10px;
+    animation-name: colorchange;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+ 
+  .conpar{
+    color: rgb(187, 185, 185);
+    margin-left: 0px;
+    margin-top: 37px;
+
+  }
+  .fifth{
+    height: 400px;
+   background-image:url(./images/artback4.jpg);
+   background-size: cover;
+  }
+  .art1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(./images/ar.jpeg);
+    background-size: cover;
+    margin-top: 142px;
+    margin-left: 45px;
+  }
+  
+  .art2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(./images/dilijit.jpeg);
+    background-size: cover;
+    margin-top: -153px;
+    margin-left: 168px;
+  }
+  
+  .art3{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(./images/shankar.jpeg);
+    background-size: cover;
+    margin-top: -148px;
+    margin-left: 296px;
+  }
+
+  .art4{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(./images/shreya.jpeg);
+    background-size: cover;
+    margin-top: -151px;
+    margin-left: 420px;
+  }
+ 
+  .art5{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(./images/yesudas.jpeg);
+    background-size: cover;
+    margin-top: -153px;
+    margin-left: 556px;
+  }
+  
+  .art6{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(./images/sid.jpeg);
+    background-size: cover;
+    margin-top: -148px;
+    margin-left: 688px;
+  }
+ 
+  .arthead{
+    margin-top: 138px;
+    margin-left: 22px;
+    color: white;
+  }
+  .artpar{
+    color: white;
+    margin-top: 10px;
+    margin-left: 28px;
+
+  }
+  .artbtn{
+    width: 100px;
+    height: 46px;
+    color: black;
+    background-color: white;
+    margin-left: 128px;
+    border: 0px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  .artbtn:hover{
+    background-color: #8e8ee8;
+
+  }
+.sixth{
+    height: 300px;
+}
+.hind1{
+    width: 121px;
+    margin-left: 102px;
+    margin-top: 89px;
+}
+.hind1:hover{
+    box-shadow:0 4px 8px 0 rgba(179, 176, 176, 0.34), 0 6px 20px 0 rgba(164, 164, 164, 0.48);
+
+}
+.hind2{
+    width: 121px;
+    margin-left: 258px;
+    margin-top: -178px;
+
+}
+.hind2:hover{
+    box-shadow:0 4px 8px 0 rgba(179, 176, 176, 0.34), 0 6px 20px 0 rgba(164, 164, 164, 0.48);
+
+}
+.hind3{
+    width: 121px;
+    margin-left: 414px;
+    margin-top: -178px;
+}
+.hind3:hover{
+    box-shadow:0 4px 8px 0 rgba(179, 176, 176, 0.34), 0 6px 20px 0 rgba(164, 164, 164, 0.48);
+
+}
+.hind4{
+    width: 121px;
+    margin-left: 565px;
+    margin-top: -178px;  
+}
+.hind4:hover{
+    box-shadow:0 4px 8px 0 rgba(179, 176, 176, 0.34), 0 6px 20px 0 rgba(164, 164, 164, 0.48);
+
+}
+.hind5{
+    width: 121px;
+    margin-left: 722px;
+    margin-top: -178px;  
+}
+.hind5:hover{
+    box-shadow:0 4px 8px 0 rgba(179, 176, 176, 0.34), 0 6px 20px 0 rgba(164, 164, 164, 0.48);
+
+}
+.hind6{
+    width: 121px;
+    margin-left: 880px;
+    margin-top: -178px;  
+}
+.hind6:hover{
+    box-shadow:0 4px 8px 0 rgba(179, 176, 176, 0.34), 0 6px 20px 0 rgba(164, 164, 164, 0.48);
+
+}
+.hind7{
+    width: 121px;
+    margin-left: 1036px;
+    margin-top: -178px;  
+}
+.hind7:hover{
+    box-shadow:0 4px 8px 0 rgba(179, 176, 176, 0.34), 0 6px 20px 0 rgba(164, 164, 164, 0.48);
+
+}
+.hindnam{
+    font-size: 15px;
+}
+.bolly{
+    margin-left: 100px;
+    margin-top: 100px;
+    color: white;
+}
+.more{
+    margin-top: 10px;
+    margin-left: 1070px;
+    color: #4444a5;
+}
+.seventh{
+    height: 300px;
+}
+.eight{
+    height: 300px;
+}
+.ninth{
+    height: 500px;
+}
+.tenth{
+    background-color: #191919;
+    height: 300px;
+}
+.last1{
+    margin-left: 10px;
+    margin-top: 170px;
+    color: white;
+}
+.last2{
+    color: white;
+    margin-left: 10px;
+}
+.play{
+    width: 120px;
+    height: 50px;
+    margin-left: 91px;
+    margin-top: 200px;
+}
+.app{
+    width: 120px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 200px;
+}
+
+
+
+
+@media only screen and (min-width:200px) and (max-width:450px){
     .mac{
         margin-left: 49px;
     }
@@ -31,10 +654,719 @@
     .wel{
         margin-top: 50px;
     }
+    .first{
+        height: 900px;
+
+    }
+    .fi{
+        width: 53px;
+        margin-top: 40px;
+        margin-left: 35px;
+    }
+    .heads{
+        font-size: 10px;
+        font-weight: bold;
+        margin-left: 31px;
+        color: white;
+        margin-top: 18px;
+    }
+    .paras{
+        font-size: 5px;
+        margin-left: 20px;
+        color: white;
     
+    }
+    .heads2{
+        font-size: 10px;
+        font-weight: bold;
+        margin-left: 31px;
+        color: white;
+        margin-top: 18px;
+    }
+    .paras2{
+        font-size: 5px;
+        margin-left: 20px;
+        color: white;
+    
+    }
+    .heads3{
+        font-size: 10px;
+        font-weight: bold;
+        margin-left: 31px;
+        color: white;
+        margin-top: 18px;
+    }
+    .paras3{
+        font-size: 5px;
+        margin-left: 20px;
+        color: white;
+    
+    }
+    .sec{
+        height: 175px;
+    }
+    .aj{
+        font-size: 40px;
+    }
+    .love{
+        font-size: 18px;
+        margin-left: 209px;
+        margin-top: -386px;
+        color: white;
+        position: absolute;
+        animation-name: top;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-out;
+    }
+    .lyrics{
+        font-size: 5px;
+        position: absolute;
+        text-align: left;
+        margin-left: 215px;
+        margin-top: -347px;
+        color: grey;
+        animation-name: down;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    
+    }
+  .mbtop{
+    margin-left: -140px;
+  }
+    .author{
+        font-size: 10px;
+        text-align: left;
+        margin-left: 75px;
+        margin-top: -144px;
+        color: white;  
+    }
+    .author2{
+        font-size: 10px;
+        text-align: left;
+        margin-left: 75px;
+        margin-top: 10px;
+        color: white;  
+    }
+    .mobdown{
+        width: 255px;
+        height: 179px;
+        margin-left: 55px;
+        margin-top: -71px;
+    }
+    .butt{
+        margin-left: 100px;
+        margin-top: 5px;
+        border-radius: 50px;
+    }
+    .box1{
+        width: 149px;
+        margin-left: 39px;
+        margin-top: 9px;
+    }
+    .box2{
+        width: 146px;
+        margin-left: 203px;
+        margin-top: -215px;
+    }
+    .box3{
+        width: 146px;
+        margin-left: 39px;
+        margin-top: 20px;
+    }
+    .box4{
+        width: 146px;
+        margin-left: 203px;
+        margin-top: -211px;
+        margin-bottom: 76px;
+    }
+    .card-text{
+        display: none;
+
+    }
+    .box5{
+        display: none;
+    }
+    .box6{
+        width: 149px;
+        margin-left: 39px;
+        margin-top: 9px;
+    }
+    .box7{
+        width: 146px;
+        margin-left: 203px;
+        margin-top: -215px;
+    }
+    .box8{
+        width: 146px;
+        margin-left: 39px;
+        margin-top: 20px;
+    }
+    .box9{
+        width: 146px;
+        margin-left: 203px;
+        margin-top: -211px;
+        margin-bottom: 76px;
+    }
+    .card-text{
+        display: none;
+
+    }
+    .box10{
+        display: none;
+    }
+    .new{
+        margin-bottom: 83px;
+    margin-top: 74px;
+    font-size: 25px;
+    margin-left: 40px;
+
+    }
+    .glob{
+        margin-left: -145px;
+    }
+    .holow{
+        margin-left: -123px;
+        margin-top: 369px;
+    }
+    .nor{
+        margin-left: -61px;
+        margin-top: -3px;
+    }
+    .conpar{
+        margin-left: -156px;
+        margin-top: 24px;
+        font-size: 10px;
+    }
+    .fourth{
+        height: 600px;
+    }
+    .fifth{height: 460px;}
+    .art1{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-image: url(./images/ar.jpeg);
+        background-size: cover;
+        margin-top: 147px;
+        margin-left: 7px;
+      }
+      
+      .art2{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-image: url(./images/dilijit.jpeg);
+        background-size: cover;
+        margin-top: -101px;
+        margin-left: 137px;
+      }
+      
+      .art3{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-image: url(./images/shankar.jpeg);
+        background-size: cover;
+        margin-top: -99px;
+        margin-left: 260px;
+      }
+    
+      .art4{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-image: url(./images/shreya.jpeg);
+        background-size: cover;
+        margin-top: 12px;
+        margin-left: 11px;
+      }
+     
+      .art5{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-image: url(./images/yesudas.jpeg);
+        background-size: cover;
+        margin-top: -95px;
+        margin-left: 139px;
+      }
+      
+      .art6{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-image: url(./images/sid.jpeg);
+        background-size: cover;
+        margin-top: -100px;
+        margin-left: 265px;
+      }
+     
+      .arthead{
+        margin-top: 58px;
+        margin-left: -191px;
+        color: white;
+        font-size: 20px;
+      }
+      .artpar{
+        color: white;
+        margin-top: 5px;
+        margin-left: -173px;
+        font-size: 12px;
+    
+      }
+      .artbtn{
+        width: 75px;
+        height: 30px;
+        color: black;
+        background-color: white;
+        margin-left: -119px;
+        border: 0px;
+        border-radius: 10px;
+        margin-top: 270px;
+      }
+      .hind1{
+        width: 121px;
+        margin-left: 32px;
+        margin-top: 89px;
+    }
+    .hind2{
+        width: 121px;
+        margin-left: 222px;
+        margin-top: -178px;
+    
+    }
+    .hind3{
+        width: 121px;
+        margin-left: 35px;
+        margin-top: 19px;
+    }
+    .hind4{
+        width: 121px;
+        margin-left: 224px;
+        margin-top: -178px;  
+    }
+    .hind5{
+        display: none; 
+    }
+    .hind6{
+       display: none; 
+    }
+    .hind7{
+       display: none; 
+    }
+    .more{
+        margin-top: 107px;
+        margin-left: 148px;
+        color: #4444a5;
+    }
+    .sixth{
+        height: 500px;
+    }
+    .seventh{
+        height: 500px;
+    }
+    .eight{
+        height: 500px;
+    }
+    .bolly{
+        margin-left: 118px;
+        margin-top: 100px;
+        color: white;
+    }
+    .ninth{
+        height: 700px;
+    }
+    .tenth{
+        background-color: #191919;
+        height: 500px;
+    }
+    .last1{
+        margin-left: 64px;
+        margin-top: 170px;
+        color: white;
+        font-size: 20px;
+        width: 287px;
+    }
+    .last2{
+        color: white;
+        margin-left: 86px;
+        width: 215px;
+    }
+    .play{
+        width: 120px;
+        height: 50px;
+        margin-left: -196px;
+        margin-top: 320px;
+    }
+    .app{
+        width: 120px;
+        height: 50px;
+        margin-left: 8px;
+        margin-top: 320px;
+    }
+    .nav-link{
+        color: white;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 0px;
+    }
 }
+@media only screen and (min-width:451px) and (max-width:1200px){
+    .mac{
+        margin-left: 87px;
+    }
+    .line{
+        padding-left: 100px;
+        width: 335px;
+    }
+    .wel{
+        margin-top: 120px;
+        margin-left: 40px;
+    }
+    .fi{
+        width: 63px;
+        margin-top: 40px;
+        margin-left: 101px;
+    }
+    .heads{
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 78px;
+        color: white;
+        margin-top: 18px;
+    }
+    .paras{
+        font-size: 10px;
+        margin-left: 60px;
+        color: white;
+    
+    }
+    .heads2{
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 58px;
+        color: white;
+        margin-top: 18px;
+    }
+    .paras2{
+        font-size: 10px;
+        margin-left: 60px;
+        color: white;
+    
+    }
+    .heads3{
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 41px;
+        color: white;
+        margin-top: 18px;
+    }
+    .paras3{
+        font-size: 10px;
+        margin-left: 60px;
+        color: white;
+    
+    }
+    .aj{
+        font-size: 50px;
+        margin-left: 60px;
+    }
+    .love{
+        font-size: 18px;
+        margin-left: 209px;
+        margin-top: -386px;
+        color: white;
+        position: absolute;
+        animation-name: top;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-out;
+    }
+    .lyrics{
+        font-size: 5px;
+        position: absolute;
+        text-align: left;
+        margin-left: 215px;
+        margin-top: -347px;
+        color: grey;
+        animation-name: down;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    
+    }
+    .parg{
+        margin-left: 75px;
+    }
+    .butt{
+        margin-left: 164px;
+        margin-top: 25px;
+        border-radius: 50px;
+    }
+
+  .mbtop{
+    margin-left: -100px;
+  }
+    .author{
+        font-size: 10px;
+        text-align: left;
+        margin-left: 110px;
+        margin-top: -144px;
+        color: white;  
+    }
+    .author2{
+        font-size: 10px;
+        text-align: left;
+        margin-left: 110px;
+        margin-top: 10px;
+        color: white;  
+    }
+    .mobdown{
+        width: 255px;
+        height: 179px;
+        margin-left: 93px;
+        margin-top: -71px;
+    }
+    .butt{
+        margin-left: 100px;
+        margin-top: 5px;
+        border-radius: 50px;
+    }
+    .third{
+        height: 350px;
+    }
+    .box1{
+        width: 120px;
+        margin-left: 70px;
+        margin-top: 102px;
+    }
+    .box2{
+        width: 120px;
+        margin-left: 206px;
+        margin-top: -178px;
+    }
+    .box3{
+        width: 120px;
+        margin-left: 347px;
+        margin-top: -178px;
+    }
+    .box4{
+        width: 120px;
+        margin-left: 485px;
+        margin-top: -178px;
+        margin-bottom: 69px;
+    }
+    .box5{
+        width: 120px;
+        margin-left: 625px;
+        margin-top: -245px;
+        margin-bottom: 69px;
+    }
+   
+    .card-text{
+        display: none;
+    }
+    .new{
+        margin-left: 65px;
+    }
+    .box6{
+        width: 120px;
+        margin-left: 70px;
+        margin-top: 101px;
+    }
+    .box7{
+        width: 120px;
+        margin-left: 206px;
+        margin-top: -178px;
+    }
+    .box8{
+        width: 120px;
+        margin-left: 347px;
+        margin-top: -178px;
+    }
+    .box9{
+        width: 120px;
+        margin-left: 485px;
+        margin-top: -178px;
+    }
+    .box10{
+        width: 120px;
+        margin-left: 625px;
+        margin-top: -178px;
+        margin-bottom: 69px;
+    }
+  .glob{
+    margin-left: -135px;
+  }
+
+.art1{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url(./images/ar.jpeg);
+  background-size: cover;
+  margin-top: 142px;
+  margin-left: 10px;
+}
+
+.art2{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url(./images/dilijit.jpeg);
+  background-size: cover;
+  margin-top: -153px;
+  margin-left: 135px;
+}
+
+.art3{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url(./images/shankar.jpeg);
+  background-size: cover;
+  margin-top: -148px;
+  margin-left: 260px;
+}
+
+.art4{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url(./images/shreya.jpeg);
+  background-size: cover;
+  margin-top: -151px;
+  margin-left: 390px;
+}
+
+.art5{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url(./images/yesudas.jpeg);
+  background-size: cover;
+  margin-top: -153px;
+  margin-left: 512px;
+}
+
+.art6{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url(./images/sid.jpeg);
+  background-size: cover;
+  margin-top: -148px;
+  margin-left: 644px;
+}
+
+.arthead{
+  margin-top: 54px;
+  margin-left: -298px;
+  color: white;
+  font-size: 25px;
+}
+.artpar{
+  color: white;
+  margin-top: -9px;
+  margin-left: -277px;
+
+}
+.artbtn{
+  width: 79px;
+  height: 32px;
+  color: black;
+  background-color: white;
+  margin-left: -192px;
+  border: 0px;
+  border-radius: 10px;
+  margin-top: 222px;
+}
+
+.hind1{
+    width: 121px;
+    margin-left: 38px;
+    margin-top: 89px;
+}
+.hind2{
+    width: 121px;
+    margin-left: 189px;
+    margin-top: -178px;
+
+}
+.hind3{
+    width: 121px;
+    margin-left: 339px;
+    margin-top: -178px;
+}
+.hind4{
+    width: 121px;
+    margin-left: 493px;
+    margin-top: -178px;  
+}
+.hind5{
+    width: 121px;
+    margin-left: 646px;
+    margin-top: -178px;  
+}
+.hind6{
+    display: none;  
+}
+.hind7{
+   display: none;  
+}
+.hindnam{
+    font-size: 15px;
+}
+.bolly{
+    margin-left: 38px;
+    margin-top: 100px;
+    color: white;
+}
+.more{
+    margin-top: 10px;
+    margin-left: 666px;
+    color: #4444a5;
+}
+.latesthe{
+    font-size: 15px;
+}  
+.ninth{
+    height: 700px;
+}
+.tenth{
+    background-color: #191919;
+    height: 500px;
+}
+.last1{
+    margin-left: 64px;
+    margin-top: 144px;
+    color: white;
+    font-size: 20px;
+    width: 287px;
+}
+.last2{
+    color: white;
+    margin-left: 86px;
+    width: 215px;
+}
+.play{
+    width: 120px;
+    height: 50px;
+    margin-left: -60px;
+    margin-top: 152px;
+}
+.app{
+    width: 120px;
+    height: 50px;
+    margin-left: 8px;
+    margin-top: 158px;
+} 
+
+}
+
 .nav-item{
     font-size: 25px;
     font-weight: bold;
     color: white;
 }
+

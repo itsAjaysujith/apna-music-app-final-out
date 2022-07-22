@@ -8,19 +8,24 @@
     <link rel="stylesheet" href="apna.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <style>
     body{
         
-        height: 1000px;
+        height: 4000px;
+        margin: 0px;
+        border: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
         background-color:rgb(21,18,45);
         background: linear-gradient(90deg, rgba(21,18,45,1) 0%, rgba(56,23,61,1) 100%, rgba(95,77,99,1) 100%, rgba(40,42,71,1) 100%);
     }
 
-
 </style>
 <body>
-    <div class="nav">
+  
+    <div class="container-fluid nav">
         <nav class="navbar navbar-expand-lg bg-transparent w-100">
             <div class="container-fluid">
               <a class="navbar-brand" style="color: white; font-size:25px; font-weight:bold; " href="#">apna music</a>
@@ -30,38 +35,513 @@
               <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" style="color: white; font-weight: normal; font-size: 20px; margin-left: 340px;" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link"  style="color: white; font-weight: normal; font-size: 20px;" href="#">library</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link">Disabled</a>
+                    <a class="nav-link"  style="color: white; font-weight: normal; font-size: 20px;" >Artist</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"  style="color: white; font-weight: normal; font-size: 20px;">Genre</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                  <input class="form-control me-2" style="width: 170px;" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-secondary" type="submit">Search</button>
                 </form>
               </div>
             </div>
           </nav>
         </div>
-    
-        <div class="container-fluid row">
-            <div class="col col-lg-6 col-sm-12 col-md-6 col-xs-12">
-                <img class="mac" src="./images/apple.png" alt="">
-                <img class="line" src="./images/lighter.gif" alt="">
+
+    <div class="container-fluid first">
+        <div class=" row">
+            <div class="col col-lg-5 col-sm-12 col-md-5 col-xs-12">
+                <img class="mac" src="./images/apple2.png" alt="">
+                <img class="line" src="./images/mob.gif" alt="">
+                <div class="mbtop">
+                <h3 class="love">You're stuck in my head</h3>
+                <h3 class="lyrics">and i cant get you out of it</h3>
+              </div>
+                <h4 class="author">Back to you -Selena Gomez</h4>
+                <h4 class="author2">apna music</h4>
+                <img class="mobdown" src="./images/search22.png" alt="">
+                
 
             </div>
-            <div class="col col-lg-6 col-sm-12 col-md-6 col-xs-12">
+            <div class="col col-lg-7 col-sm-12 col-md-7 col-xs-12">
               <h5 class="wel" style="color: white;">welcome,</h5>
-                <h1 style="color: white;">Ajay sujith</h1>
-                <p style="color: white;">get unlimite music with full of joy a new room of mood comes to you.explore the un ending world music through apna music.lets welocome you to new horizon</p>
+                <h1 class="aj">Ajay</h1>
+                <p class="parg">get unlimited music with full of joy and a new room of mood comes to you.explore the unending world of music in apna music.lets welocome you to new horizon</p>
+                <button class="butt">Get music premium</button>
 
             </div>
         </div>
+      </div>
+        <div class="container-fluid sec">
+        <div class="row">
+          <div class="col col-4">
+            <img class="fi" src="./images/headset.png" alt="">
+            <h1 class="heads">Listen in the background</h1>
+            <p class="paras">Don’t worry about your music stopping when you lock your screen or use other apps.</p>
+            
+          </div>
+          <div class="col col-4">
+            <img class="fi" src="./images/addfree.png" alt="">
+            <h1 class="heads2">Ad-free music</h1>
+            <p class="paras2">Listen to the world of music without ads.</p>
+          </div>
+          <div class="col col-4">
+            <img class="fi" src="./images/download.png" alt="">
+            <h1 class="heads3">Download and go</h1>
+            <p class="paras3">Listen to your favorite music on the go.</p>
+          </div>
+        </div>
+      </div>
+       <div class="latest col-12">
+        <h2 class="new">New Releases</h2>
+        <div class="row third">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" style="margin-top: -80px;">
+        
+            <div class="carousel-inner">
+              <div class="carousel-item active" >
+                <div class="card box1">
+                  <img class="card-img-top" src="./images/latest1.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="latesthe">Brahmastra</h4>
+                    <p class="card-text">The music score is composed by Pritam</p>
+                  </div>
+                </div>
+                <div class="card box2" >
+                  <img class="card-img-top" src="./images/latest2.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="latesthe">Vikram</h4>
+                    <p class="card-text">Soundtrack album by Anirudh Ravichander</p>
+                  </div>
+                </div>
+                <div class="card box3" >
+                  <img class="card-img-top" src="./images/latest3.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="latesthe">Punjabi</h4>
+                    <p class="card-text">New song mix for you with punjabi blast</p>
+                  </div>
+                </div>
+                <div class="card box4" >
+                  <img class="card-img-top" src="./images/latest4.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="latesthe">Suzhal</h4>
+                    <p class="card-text">Album by Embar Kannan Violin Solo</p>
+                  </div>
+                </div>
+                <div class="card box5" >
+                  <img class="card-img-top" src="./images/latest5.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="latesthe">K R K</h4>
+                    <p class="card-text">Soundtrack album by Anirudh Ravichander
+                    </p>
+                  </div>
+                </div>
+      
+                <div class="carousel-caption d-none d-md-block">
+                  
+                  </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="500">
+                <div class="card box6" >
+                  <img class="card-img-top" src="./images/latest6.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="latesthe">Beast</h4>
+                    <p class="card-text">the most-liked South Indian song by anirudh</p>
+                  </div>
+                </div>
+                <div class="card box7" >
+                  <img class="card-img-top" src="./images/latest 7.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="latesthe">Shamshera</h4>
+                    <p class="card-text">Soundtrack album by Mithoon</p>
+                  </div>
+                </div>
+                <div class="card box8" >
+                  <img class="card-img-top" src="./images/latest8.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="latesthe">Liger</h4>
+                    <p class="card-text">composed by Tanishk Bagchi and Vikram </p>
+                  </div>
+                </div>
+                <div class="card box9" >
+                  <img class="card-img-top" src="./images/latest9.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="latesthe">bkm</h4>
+                    <p class="card-text">
+                      'Barsaat ka mausam',a beautiful romantic rain</p>
+                  </div>
+                </div>
+                <div class="card box10" >
+                  <img class="card-img-top" src="./images/latest10.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="latesthe">Bb 2</h4>
+                    <p class="card-text">"Bhool Bhulaiyaa 2" by BhushanKumar</p>
+                  </div>
+                </div>
+                
 
+                
+                <div class="carousel-caption d-none d-md-block">
+                  
+                  </div>
+                  
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     
+        </div>
+
+       </div>
+       <div class="container-fluid connection">
+        <div class="row fourth">
+        <div class="col col-6">
+          <div class="glob">
+          <div class="round"></div>
+          <div class="round2"></div>
+          <div class="round3"></div>
+          <div class="round4"></div>
+          <div class="round5"></div>
+          <img class="ava1" src="./images/avatar1.png" alt="">
+          <img class="ava2" src="./images/avatar2.png" alt="">
+          <img class="ava3" src="./images/avatar3.png" alt="">
+        </div>
+
+        </div>
+        <div class="col col-6">
+          <h1 class="holow">Music </h1><h1 class="nor">is connection</h1>
+          <p class="conpar">Music is more meaningful when shared with others. apna music's community features let you interact with your friends over your favorite tracks, create and share playlists, and comment on the tracks you love.</p>
+
+        </div>
+          
+
+        </div>
+       </div>
+       <div class="container-fluid artist">
+        <div class="row fifth">
+          <div class="col col-8">
+            <div class="artistgroup">
+            <div class="art1"></div>
+            <div class="art2"></div>
+            <div class="art3"></div>
+            <div class="art4"></div>
+            <div class="art5"></div>
+            <div class="art6"></div>
+          </div>
+
+          </div>
+          <div class="col col-4">
+            <h2 class="arthead">Tell us which artist you like</h2>
+            <p class="artpar">We'll create an experience for you</p>
+            <button class="artbtn">Lets go</button>
+          </div>
+        </div>
+       </div>
+       <div class="container-fluid">
+        <div class="row sixth">
+          <div class="col col-12">
+            <h4 class="bolly">Bollywood hits</h4>
+       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" style="margin-top: -80px;">
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active" >
+            <div class="card hind1">
+              <img class="card-img-top" src="./images/hindi1.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="hindnam">Bollywood</h4>
+                <p class="card-text"></p>
+              </div>
+            </div>
+            <div class="card hind2" >
+              <img class="card-img-top" src="./images/hindi2.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="hindnam">baarish </h4>
+                <p class="card-text"></p>
+              </div>
+            </div>
+            <div class="card hind3" >
+              <img class="card-img-top" src="./images/hindi4.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="hindnam">Raabta</h4>
+                <p class="card-text"></p>
+              </div>
+            </div>
+            <div class="card hind4" >
+              <img class="card-img-top" src="./images/hindi5.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="hindnam">half gf</h4>
+                <p class="card-text"></p>
+              </div>
+            </div>
+            <div class="card hind5" >
+              <img class="card-img-top" src="./images/hindi6.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="hindnam">Tamasha</h4>
+                <p class="card-text">
+                </p>
+              </div>
+            </div>
+            <div class="card hind6" >
+              <img class="card-img-top" src="./images/hindi7.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="hindnam">Aashique 2</h4>
+                <p class="card-text">
+                </p>
+              </div>
+            </div>
+            <div class="card hind7" >
+              <img class="card-img-top" src="./images/hindi8.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="hindnam">Heartless</h4>
+                <p class="card-text">
+                </p>
+              </div>
+            </div>
+            <a class="more" href="33">More songs</a>
+
+          </div>
+          </div>
+          </div>
+          </div>
+        </div>
+       </div>
+          <div class="container-fluid malayalam">
+            <div class="row seventh">
+              <div class="col col-12">
+                <div class="malay">
+                <h4 class="bolly">Malayalam hits</h4>
+           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" style="margin-top: -80px;">
+            
+            <div class="carousel-inner">
+              <div class="carousel-item active" >
+                <div class="card hind1">
+                  <img class="card-img-top" src="./images/malayalam1.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="hindnam">Malayalam</h4>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+                <div class="card hind2" >
+                  <img class="card-img-top" src="./images/malayalam2.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="hindnam">Sita ramam </h4>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+                <div class="card hind3" >
+                  <img class="card-img-top" src="./images/malayalam3.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="hindnam">John luther</h4>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+                <div class="card hind4" >
+                  <img class="card-img-top" src="./images/malayalam4.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="hindnam">reprise</h4>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+                <div class="card hind5" >
+                  <img class="card-img-top" src="./images/malayalam5.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="hindnam">Maalik</h4>
+                    <p class="card-text">
+                    </p>
+                  </div>
+                </div>
+                <div class="card hind6" >
+                  <img class="card-img-top" src="./images/malayalam6.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="hindnam">Hridayam</h4>
+                    <p class="card-text">
+                    </p>
+                  </div>
+                </div>
+                <div class="card hind7" >
+                  <img class="card-img-top" src="./images/malayalam7.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="hindnam">Karimizhi</h4>
+                    <p class="card-text">
+                    </p>
+                  </div>
+                </div>
+                <a class="more" href="33">More songs</a>
+              </div>
+              </div>
+              </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+              <div class="container-fluid tamil">
+                <div class="row eight">
+                  <div class="col col-12">
+                    <div class="malay">
+                    <h4 class="bolly">Tamil latest</h4>
+               <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" style="margin-top: -80px;">
+                
+                <div class="carousel-inner">
+                  <div class="carousel-item active" >
+                    <div class="card hind1">
+                      <img class="card-img-top" src="./images/tamil1.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="hindnam">kollywood</h4>
+                        <p class="card-text"></p>
+                      </div>
+                    </div>
+                    <div class="card hind2" >
+                      <img class="card-img-top" src="./images/tamil2.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="hindnam">Vikram</h4>
+                        <p class="card-text"></p>
+                      </div>
+                    </div>
+                    <div class="card hind3" >
+                      <img class="card-img-top" src="./images/tamil3.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="hindnam">horror</h4>
+                        <p class="card-text"></p>
+                      </div>
+                    </div>
+                    <div class="card hind4" >
+                      <img class="card-img-top" src="./images/tamil4.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="hindnam">Thiruchitra</h4>
+                        <p class="card-text"></p>
+                      </div>
+                    </div>
+                    <div class="card hind5" >
+                      <img class="card-img-top" src="./images/tamil5.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="hindnam">cobra</h4>
+                        <p class="card-text">
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card hind6" >
+                      <img class="card-img-top" src="./images/tamil6.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="hindnam">Beast</h4>
+                        <p class="card-text">
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card hind7" >
+                      <img class="card-img-top" src="./images/tamil7.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="hindnam">Bachelor</h4>
+                        <p class="card-text">
+                        </p>
+                      </div>
+                    </div>
+                    <a class="more" href="33">More songs</a>
+                  </div>
+                  </div>
+                  </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+                  <div class="container-fluid telugu">
+                    <div class="row ninth">
+                      <div class="col col-12">
+                        <div class="malay">
+                        <h4 class="bolly">Telugu latest</h4>
+                   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" style="margin-top: -80px;">
+                    
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" >
+                        <div class="card hind1">
+                          <img class="card-img-top" src="./images/telugu1.jpeg" alt="Card image cap">
+                          <div class="card-body">
+                            <h4 class="hindnam">Tollywood</h4>
+                            <p class="card-text"></p>
+                          </div>
+                        </div>
+                        <div class="card hind2" >
+                          <img class="card-img-top" src="./images/telugu2.jpeg" alt="Card image cap">
+                          <div class="card-body">
+                            <h4 class="hindnam">SVP</h4>
+                            <p class="card-text"></p>
+                          </div>
+                        </div>
+                        <div class="card hind3" >
+                          <img class="card-img-top" src="./images/telugu3.jpeg" alt="Card image cap">
+                          <div class="card-body">
+                            <h4 class="hindnam">Akhanda</h4>
+                            <p class="card-text"></p>
+                          </div>
+                        </div>
+                        <div class="card hind4" >
+                          <img class="card-img-top" src="./images/telugu4.jpeg" alt="Card image cap">
+                          <div class="card-body">
+                            <h4 class="hindnam">KGF 2</h4>
+                            <p class="card-text"></p>
+                          </div>
+                        </div>
+                        <div class="card hind5" >
+                          <img class="card-img-top" src="./images/telugu5.jpeg" alt="Card image cap">
+                          <div class="card-body">
+                            <h4 class="hindnam">RRR</h4>
+                            <p class="card-text">
+                            </p>
+                          </div>
+                        </div>
+                        <div class="card hind6" >
+                          <img class="card-img-top" src="./images/telugu6.jpeg" alt="Card image cap">
+                          <div class="card-body">
+                            <h4 class="hindnam">AVP</h4>
+                            <p class="card-text">
+                            </p>
+                          </div>
+                        </div>
+                        <div class="card hind7" >
+                          <img class="card-img-top" src="./images/telugu7.jpeg" alt="Card image cap">
+                          <div class="card-body">
+                            <h4 class="hindnam">RX 100</h4>
+                            <p class="card-text">
+                            </p>
+                          </div>
+                        </div>
+                        <a class="more" href="33">More songs</a>
+                      </div>
+                      </div>
+                      </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                      <div class="container-fluid">
+                        <div class="row tenth">
+                          <div class="col col-8">
+                            <h1 class="last1">Best way to Listen to Music!</h1>
+                            <p class="last2">Don’t forget to install apna Music on your mobile phones</p>
+                          </div>
+                          <div class="col col-4">
+                            <img class="play" src="./images/playstore.png" alt="">
+                            <img class="app" src="./images/appstore.png" alt="">
+                          </div>
+                        </div>
+                      </div>
+       </div>
+         
 </body>
 </html>
