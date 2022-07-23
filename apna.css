@@ -640,6 +640,13 @@
     margin-left: 10px;
     margin-top: 200px;
 }
+.logo{
+    width: 30px;
+    height: 30px;
+    margin-left: -6px;
+}
+
+
 
 
 
@@ -663,12 +670,16 @@
         margin-top: 40px;
         margin-left: 35px;
     }
+    .nav-link{
+        margin-left: 0px;
+    }
     .heads{
-        font-size: 10px;
+        font-size: 8px;
         font-weight: bold;
-        margin-left: 31px;
+        margin-left: 8px;
         color: white;
         margin-top: 18px;
+        width: 150px;
     }
     .paras{
         font-size: 5px;
@@ -677,7 +688,7 @@
     
     }
     .heads2{
-        font-size: 10px;
+        font-size: 8px;
         font-weight: bold;
         margin-left: 31px;
         color: white;
@@ -690,15 +701,15 @@
     
     }
     .heads3{
-        font-size: 10px;
+        font-size: 8px;
         font-weight: bold;
-        margin-left: 31px;
+        margin-left: 24px;
         color: white;
         margin-top: 18px;
     }
     .paras3{
         font-size: 5px;
-        margin-left: 20px;
+        margin-left: 33px;
         color: white;
     
     }
@@ -982,7 +993,7 @@
         height: 500px;
     }
     .last1{
-        margin-left: 64px;
+        margin-left: 58px;
         margin-top: 170px;
         color: white;
         font-size: 20px;
@@ -990,13 +1001,13 @@
     }
     .last2{
         color: white;
-        margin-left: 86px;
+        margin-left: 80px;
         width: 215px;
     }
     .play{
         width: 120px;
         height: 50px;
-        margin-left: -196px;
+        margin-left: -200px;
         margin-top: 320px;
     }
     .app{
@@ -1010,6 +1021,11 @@
     font-weight: normal;
     font-size: 20px;
     margin-left: 0px;
+    }
+    .logo{
+    width: 30px;
+    height: 30px;
+    margin-left: -187px;
     }
 }
 @media only screen and (min-width:451px) and (max-width:1200px){
@@ -1099,8 +1115,8 @@
         margin-left: 75px;
     }
     .butt{
-        margin-left: 164px;
-        margin-top: 25px;
+        margin-left: 181px;
+        margin-top: 20px;
         border-radius: 50px;
     }
 
@@ -1127,11 +1143,7 @@
         margin-left: 93px;
         margin-top: -71px;
     }
-    .butt{
-        margin-left: 100px;
-        margin-top: 5px;
-        border-radius: 50px;
-    }
+   
     .third{
         height: 350px;
     }
@@ -1361,6 +1373,10 @@
     margin-left: 8px;
     margin-top: 158px;
 } 
+.logo{
+    display: none;
+    
+    }
 
 }
 

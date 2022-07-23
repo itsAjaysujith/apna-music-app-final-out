@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>apna music - your music partner</title>
+    <link rel="icon" href="images/logopng2.png" type="image/icon type">
     <link rel="stylesheet" href="apna.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
@@ -20,7 +21,9 @@
         padding-right: 0px;
         background-color:rgb(21,18,45);
         background: linear-gradient(90deg, rgba(21,18,45,1) 0%, rgba(56,23,61,1) 100%, rgba(95,77,99,1) 100%, rgba(40,42,71,1) 100%);
+        
     }
+   
 
 </style>
 <body>
@@ -28,23 +31,24 @@
     <div class="container-fluid nav">
         <nav class="navbar navbar-expand-lg bg-transparent w-100">
             <div class="container-fluid">
-              <a class="navbar-brand" style="color: white; font-size:25px; font-weight:bold; " href="#">apna music</a>
+              <img class="logo" src="./images/logopng2.png" alt="">
+              <a class="navbar-brand" style="color: white; font-size:25px; font-weight:bold; margin-left: 10px; " href="#">apna music</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav soo me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" style="color: white; font-weight: normal; font-size: 20px; margin-left: 340px;" aria-current="page" href="#">Home</a>
+                    <a class="nav-link " style="color: rgb(213, 213, 213); font-weight:normal; font-size: 20px; "  aria-current="page" href="#home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link"  style="color: white; font-weight: normal; font-size: 20px;" href="#">library</a>
+                    <a class="nav-link" style="color: rgb(213, 213, 213); font-weight: normal; font-size: 20px;" href="#hits">latest</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link"  style="color: white; font-weight: normal; font-size: 20px;" >Artist</a>
+                    <a class="nav-link" style="color:rgb(213, 213, 213); font-weight:normal; font-size: 20px;" href="#artists" >Artist</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link"  style="color: white; font-weight: normal; font-size: 20px;">Genre</a>
+                    <a class="nav-link" style="color: rgb(213, 213, 213); font-weight: normal; font-size: 20px; " href="#lib" >library</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -56,7 +60,7 @@
           </nav>
         </div>
 
-    <div class="container-fluid first">
+    <div class="container-fluid first" id="home">
         <div class=" row">
             <div class="col col-lg-5 col-sm-12 col-md-5 col-xs-12">
                 <img class="mac" src="./images/apple2.png" alt="">
@@ -100,7 +104,7 @@
           </div>
         </div>
       </div>
-       <div class="latest col-12">
+       <div class="latest col-12" id="hits">
         <h2 class="new">New Releases</h2>
         <div class="row third">
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" style="margin-top: -80px;">
@@ -231,7 +235,7 @@
 
         </div>
        </div>
-       <div class="container-fluid artist">
+       <div class="container-fluid artist" id="artists">
         <div class="row fifth">
           <div class="col col-8">
             <div class="artistgroup">
@@ -251,7 +255,7 @@
           </div>
         </div>
        </div>
-       <div class="container-fluid">
+       <div class="container-fluid" id="lib">
         <div class="row sixth">
           <div class="col col-12">
             <h4 class="bolly">Bollywood hits</h4>
@@ -535,7 +539,7 @@
                             <h1 class="last1">Best way to Listen to Music!</h1>
                             <p class="last2">Don’t forget to install apna Music on your mobile phones</p>
                           </div>
-                          <div class="col col-4">
+                          <div class="col col-4"> 
                             <img class="play" src="./images/playstore.png" alt="">
                             <img class="app" src="./images/appstore.png" alt="">
                           </div>
